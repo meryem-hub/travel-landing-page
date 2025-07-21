@@ -3,7 +3,7 @@ import logo from '../assets/images/logo.png';
 const Header = () => {
   return (
     <header className="flex justify-between items-center px-8 py-6 font-medium  ">
-        <img src={logo} alt="Jadoo Logo" className="h-8 pl-16 ml-16 gap-12" />
+        <img src={logo} alt="Jadoo Logo" className=" pl-16 ml-16 gap-12" />
       <div className="flex items-center ">
         
         <nav className="hidden md:flex gap-16 ml-14 ">
