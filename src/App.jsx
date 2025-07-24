@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Category from './components/Category'
 import TopDestinations from './components/TopDestinations'
+import Trip from './components/Trip'
+import Testimonials from './components/Testimonials'
 function App() {
 
   return (
@@ -11,6 +13,8 @@ function App() {
  <Hero/>
  <Category/>
  <TopDestinations/>
+ <Trip/>
+ <Testimonials/>
   </div>
   )
 }
