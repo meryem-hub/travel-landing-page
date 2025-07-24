@@ -5,6 +5,8 @@ import Category from './components/Category'
 import TopDestinations from './components/TopDestinations'
 import Trip from './components/Trip'
 import Testimonials from './components/Testimonials'
+import Newsletter from './components/NewsLetter'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -15,6 +17,8 @@ function App() {
  <TopDestinations/>
  <Trip/>
  <Testimonials/>
+ <Newsletter/>
+ <Footer/>
   </div>
   )
 }
