@@ -7,7 +7,7 @@ function Category() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <p className="text-blue-600 font-semibold mb-2">CATEGORY</p>
+        <p className="text-black-600 font-light mb-2">CATEGORY</p>
         <h2 className="text-4xl font-bold text-gray-800">We Offer Best Services</h2>
       </div>
 
