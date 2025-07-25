@@ -36,26 +36,28 @@ const Testimonials = () => {
             </div>
 
             <div className="bg-white rounded-xl shadow-xl p-8 mb-4 relative z-20">
-              <div className="absolute -top-10 -left-10 w-20 h-20 rounded-full overflow-hidden shadow-md z-10">
+              <div className="absolute md:-top-10 md:-left-10 top-0 left-0 w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden shadow-md z-10">
                 <img src={man} alt="user" className="w-full h-full object-cover" />
               </div>
-              <p className="text-gray-600 text-md mt-8">
-                "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. 
-                Of believed or diverted no."
-              </p>
-              <div className="mt-6">
-                <p className="font-semibold text-[#1D1E4C]">Mike Taylor</p>
-                <p className="text-sm text-gray-500">Lahore, Pakistan</p>
+              <div className="pl-20 md:pl-24 pt-4">
+                <p className="text-gray-600 text-md">
+                  "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. 
+                  Of believed or diverted no."
+                </p>
+                <div className="mt-6">
+                  <p className="font-semibold text-[#1D1E4C]">Mike Taylor</p>
+                  <p className="text-sm text-gray-500">Lahore, Pakistan</p>
+                </div>
               </div>
             </div>
 
             <div 
-              className="bg-white rounded-xl p-4 border border-gray-300 shadow-sm absolute top-12 left-10 w-full z-10"
+              className="bg-white rounded-xl p-4 border border-gray-300 shadow-sm absolute top-12 left-10 w-full z-10 hidden md:block"
               style={{ height: '210px' }}
             >
               <p className="text-gray-600 text-md mt-8">
                 "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. 
-                Of believed or diverted no. "
+                Of believed or diverted no."
               </p>
               <div className="pt-16 mb-4">
                 <p className="font-semibold text-[#1D1E4C]">Chris Thomas</p>
@@ -66,9 +68,9 @@ const Testimonials = () => {
         </div>
 
         <div className="mt-16 flex justify-center items-center flex-wrap gap-8">
-          <img src={axon} alt="axon" style={{ height: '110px' }} className="h-14 object-contain transition-transform duration-300 hover:scale-105" />
+          <img src={axon} alt="axon" className="h-14 object-contain transition-transform duration-300 hover:scale-105" />
           <img src={star} alt="star" className="h-14 object-contain transition-transform duration-300 hover:scale-105" />
-          <img src={expedia} alt="expedia" style={{ height: '110px' }} className="object-contain transition-transform duration-300 hover:scale-105" />
+          <img src={expedia} alt="expedia" className="h-14 object-contain transition-transform duration-300 hover:scale-105" />
           <img src={qantas} alt="qantas" className="h-5 object-contain transition-transform duration-300 hover:scale-105" />
           <img src={alitalia} alt="alitalia" className="h-5 object-contain transition-transform duration-300 hover:scale-105" />
         </div>
